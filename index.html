@@ -30,7 +30,13 @@
       /* Add a color to the active/current link */
       .topnav a.active {
         background-color: #f4c280;
-        color: white;
+        color: black;
+      }
+
+      .logo {
+        display: block; /* Changes image from inline to block */
+        margin: 0 auto; /* Centers horizontally by distributing space evenly */
+        max-width: 600px; /* Sets your desired logo size */
       }
     </style>
   </head>
@@ -38,8 +44,8 @@
     <img
       src="./assets/Images/Mimadoo_Logo.jpg"
       height="400"
-      width="600"
       alt="Mimadoo Logo"
+      class="logo"
     />
 
     <div class="topnav">
